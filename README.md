@@ -48,24 +48,31 @@ Each implementation follows a consistent and rigorous pipeline:
 ## 🧠 Implemented Models
 
 ### 📌 YOLOv1 – You Only Look Once (v1)  
-🔗 [GitHub Repository](https://github.com/bskkimm/Simple-YOLO-v1-implementation-from-scratch-using-PyTorch-) | [Medium Article](https://medium.com/@bskkim2022/yolo-v1-implementation-from-scratch-using-pytorch-d7fa95ff06ea)
+🔗 [GitHub Repository](https://github.com/bskkimm/YOLOv1-from-Scratch) | [Medium Article](https://medium.com/@bskkim2022/yolo-v1-implementation-from-scratch-using-pytorch-d7fa95ff06ea)
 
 YOLOv1 is a real-time object detection model that reframes detection as a single regression problem, directly predicting class probabilities and bounding boxes from full images in one evaluation. It introduced a new paradigm compared to two-stage detectors like R-CNN.
 
 ---
 
 ### 📌 ViT – Vision Transformer
-🔗 [GitHub Repository](https://github.com/bskkimm/Simple-ViT-Implementation) | [Medium Article](https://medium.com/@bskkim2022/paper-reimplementation-vit-vision-transformer-eed3ad20dfe7)
+🔗 [GitHub Repository](https://github.com/bskkimm/ViT-from-Scratch) | [Medium Article](https://medium.com/@bskkim2022/paper-reimplementation-vit-vision-transformer-eed3ad20dfe7)
 
 ViT replaces convolutional layers with pure transformer blocks. It splits the image into patches, flattens them, and feeds them into a standard transformer architecture, achieving state-of-the-art performance with sufficient data.
 
 
 ---
 
-### 📌 DETR – DEtection TRansformer
-🔗 [GitHub Repository](https://github.com/bskkimm/Simple-DETR-Implementation) | [Medium Article](https://medium.com/@bskkim2022/detr-implementation-from-scratch-using-pytorch-0f783fe06363)
+### 📌 DETR – Detection TRansformer
+🔗 [GitHub Repository](https://github.com/bskkimm/DETR-from-Scratch) | [Medium Article](https://medium.com/@bskkim2022/detr-implementation-from-scratch-using-pytorch-0f783fe06363)
 
 DETR is a novel object detection model that unifies detection with transformers and bipartite matching. It eliminates the need for many hand-crafted components like anchor boxes or NMS, making detection elegantly simple.
+
+---
+
+### 📌 DETR3D – 3D Object Detection Transformer
+🔗 [GitHub Repository](https://github.com/bskkimm/DETR3D-from-Scratch)
+
+DETR3D extends DETR-style object queries to multi-camera 3D object detection, using image features and camera geometry to predict 3D bounding boxes without explicit bird's-eye-view feature construction.
 
 ---
 
@@ -75,5 +82,4 @@ This is a solo learning project, but feel free to:
 - Star ⭐ the repos
 - Open issues for suggestions
 - Fork and experiment
-
 
