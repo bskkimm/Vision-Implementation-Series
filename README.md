@@ -76,6 +76,13 @@ DETR3D extends DETR-style object queries to multi-camera 3D object detection, us
 
 ---
 
+### 📌 BEVFormer – Bird's-Eye-View Transformer
+🔗 [GitHub Repository](https://github.com/bskkimm/BevFormer_from_scratch)
+
+BEVFormer learns a bird's-eye-view representation from multi-camera images using spatiotemporal transformers. It combines spatial cross-attention across camera views with temporal self-attention across frames to predict 3D bounding boxes, implemented from scratch in PyTorch.
+
+---
+
 ## 🤝 Contribution
 
 This is a solo learning project, but feel free to:
