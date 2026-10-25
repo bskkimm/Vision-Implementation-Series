@@ -70,7 +70,7 @@ DETR is a novel object detection model that unifies detection with transformers 
 ---
 
 ### 📌 DETR3D – 3D Object Detection Transformer
-🔗 [GitHub Repository](https://github.com/bskkimm/DETR3D-from-Scratch)
+🔗 [GitHub Repository](https://github.com/bskkimm/DETR3D-from-Scratch) |
 [Medium Article](https://medium.com/@bskkim2022/detr3d-from-scratch-in-pytorch-from-multi-camera-images-to-3d-boxes-0342a1493c23)
 
 DETR3D extends DETR-style object queries to multi-camera 3D object detection, using image features and camera geometry to predict 3D bounding boxes without explicit bird's-eye-view feature construction.
